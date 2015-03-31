@@ -1,13 +1,3 @@
-* {
-    border: 1px solid red !important;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .logo {
     width: 100px;
@@ -23,12 +13,8 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 992px) {
-    .image-center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+hr {
+    border: 2px solid #BCBBBB;
 }
 
 body {
@@ -46,5 +32,20 @@ body {
 }
 
 .title-super {
+    color:#BCBBBB;
     font-size: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .image-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .title-super {
+        font-size :50px;
+    }
 }
